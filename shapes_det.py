@@ -3,7 +3,6 @@ import argparse
 import copy
 import numpy as np
 
-
 def show_circles(img_):
     img = copy.deepcopy(img_)
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
